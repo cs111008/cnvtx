@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#countryTable {
+  border-collapse: collapse;
+  margin-top: 50px;
+  margin: auto;
+}
+
+#countryTable th,#countryTable td {
+  border: 1px solid black;
+}
+#countryTable tr:hover{
+  background:gray;
+  opacity:0.25;
+  content:'>'
+}
+
